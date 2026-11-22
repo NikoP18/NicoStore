@@ -1,0 +1,49 @@
+.suscripcion-titulo h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.suscripcion-titulo p {
+    color: #475569;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.formulario-suscripcion {
+    background-color: #DBEAFE;
+    border: 2px solid #BFDBFE;
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 650px;
+    margin: 0 auto;
+    box-shadow: 0 8px 20px rgba(23, 37, 84, 0.10);
+}
+
+.formulario-suscripcion .form-label {
+    color: #172554;
+    font-weight: 600;
+}
+
+.formulario-suscripcion .form-control:focus {
+    border-color: #2563EB;
+    box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.15);
+}
+
+.formulario-suscripcion .form-check-label {
+    color: #334155;
+}
+
+.formulario-suscripcion .btn-primary {
+    background-color: #2563EB;
+    border-color: #2563EB;
+    border-radius: 10px;
+    padding: 12px 25px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.formulario-suscripcion .btn-primary:hover {
+    background-color: #172554;
+    border-color: #172554;
+}

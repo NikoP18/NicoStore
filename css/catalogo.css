@@ -1,0 +1,56 @@
+.catalogo-carrusel {
+    background-color: #DBEAFE;
+    padding: 40px;
+    border: 2px solid #BFDBFE;
+    border-radius: 20px;
+    margin: 30px 20px;
+    box-shadow: 0 8px 20px rgba(23, 37, 84, 0.10);
+}
+.catalogo-carrusel .carousel-item img {
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+    padding: 15px;
+}
+
+.catalogo-carrusel .carousel-item .row {
+    align-items: center;
+}
+
+.catalogo-carrusel .carousel-item .col-md-6:first-child {
+    border-right: 3px solid #7eb3f4;
+    padding-right: 30px;
+}
+
+.catalogo-carrusel .carousel-item .col-md-6:last-child {
+    padding: 20px 35px;
+}
+
+.catalogo-carrusel .carousel-control-prev,
+.catalogo-carrusel .carousel-control-next {
+    width: 45px;
+    height: 45px;
+    background-color: #2563EB;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 1;
+}
+
+.catalogo-carrusel .carousel-control-prev:hover,
+.catalogo-carrusel .carousel-control-next:hover {
+    background-color: #172554;
+}
+
+.catalogo-carrusel .btn-primary {
+    background-color: #2563EB;
+    border-color: #2563EB;
+    color: #FFFFFF;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.catalogo-carrusel .btn-primary:hover {
+    background-color: #172554;
+    border-color: #172554;
+    color: #FFFFFF;
+}
